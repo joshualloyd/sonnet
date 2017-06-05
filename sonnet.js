@@ -20,4 +20,4 @@ sonnetUpdate = sonnetUpdate.replace(/ the /g, ' a large ');
 console.log("also replacing, the with large", sonnetUpdate);
 
 // Set the content of the sonnet div with the new string.
-sonnet.innerHTML = sonnetUpdate
+sonnet.innerHTML = sonnetUpdate;
