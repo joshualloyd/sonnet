@@ -1,5 +1,5 @@
 // Take the contents of the sonnet div and place it in a variable.
-let sonnet = document.getElementById('sonnet').innerHTML;
+let sonnet = document.getElementById('sonnet');
 let sonnetText = sonnet.innerHTML;
 console.log("the string in the sonnet div is ", sonnetText);
 
