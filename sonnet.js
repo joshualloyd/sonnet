@@ -1,5 +1,5 @@
 // Take the contents of the sonnet div and place it in a variable.
-let sonnet = document.getElementById('sonnet').innerHTML;
+let sonnet = document.getElementById('sonnet');
 let sonnetText = sonnet.innerHTML;
 console.log("the string in the sonnet div is ", sonnetText);
 
@@ -20,4 +20,4 @@ sonnetUpdate = sonnetUpdate.replace(/ the /g, ' a large ');
 console.log("also replacing, the with large", sonnetUpdate);
 
 // Set the content of the sonnet div with the new string.
-sonnet.innerHTML = sonnetUpdate
+sonnet.innerHTML = sonnetUpdate;
